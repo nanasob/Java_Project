@@ -7,6 +7,7 @@ class Addition{
     }
 
     int add(int a, int b){
+        //Addtion function
         int c = a + b;
         return c;
     }
