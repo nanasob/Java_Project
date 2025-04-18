@@ -34,3 +34,15 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+    Test:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Run Test
+        run: |
+          javac Addition.java
+          java Addition
+
+          echo "Test Passed Successfully"
