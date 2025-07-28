@@ -7,7 +7,7 @@ class Addition{
     }
 
     int add(int a, int b){
-        //Addtion function for two numbers 2
+        //Addtion function for two numbers logic
 
         int c = a + b;
         return c;
